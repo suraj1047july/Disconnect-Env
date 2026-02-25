@@ -7,7 +7,15 @@ terraform {
       version = "~> 5.0"
     }
   }
+
+  cloud{
+    organization = "iAI"
+    workspaces{
+        name = "Disconnect-Env"
+    }
+    }
 }
+
 
 provider "aws" {
   region = var.aws_region
