@@ -9,12 +9,13 @@ terraform {
   }
 
   cloud{
-    organization = "iAI"
+    organization = "terraform_learn_all_cloud"
     workspaces{
-        name = "Disconnect-Env"
+        name = "terraform_aws"
     }
     }
 }
+
 
 
 
