@@ -11,10 +11,11 @@ terraform {
   cloud{
     organization = "terraform_learn_all_cloud"
     workspaces{
-        name = "terraform_aws"
+        name = "Disconnect-Env"
     }
     }
 }
+
 
 
 
